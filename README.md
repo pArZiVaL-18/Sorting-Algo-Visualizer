@@ -1,5 +1,5 @@
 # Sorting Algorithm Visualizer
-This project is a web-based application that visually demonstrates how different sorting algorithms work. It allows users to select various sorting algorithms and watch the sorting process unfold step-by-step with visual animations.
+This is a web-based application that visually demonstrates how different sorting algorithms work. It allows users to select various sorting algorithms and watch the sorting process unfold step-by-step with visual animations.
 
 # Features
 **Multiple Sorting Algorithms:** Includes Bubble Sort, Merge Sort, Quick Sort, and more.<br/>
