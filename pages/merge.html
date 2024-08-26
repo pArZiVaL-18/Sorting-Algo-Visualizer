@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagestyle.css">
+    <title>Merge Sort</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            Merge Sort Algorithm
+        </div>
+
+        <div class="line"></div>
+
+        <div class="title"><span class="title-1">Definition : </span></div>
+        <div class="definition">
+            <p><u><i>Merge sort</i></u> is a divide-and-conquer sorting algorithm that breaks down an array into smaller arrays, sorts them, and then combines the subarrays back together to return a sorted array.</p>
+        </div>
+
+        <div class="title"><span class="title-1">MergeSort Method </span></div>
+
+        <div class="working">
+            <ol>
+                <li><b>Divide:</b> <br><br>
+                    <ul>
+                        <li><span class="highlight">Base Case:</span> If the input array <span class="highlight">data</span> has only one element, it’s already sorted, so return.</li>
+                        <li><span class="highlight">Split:</span> Divide the array into two halves, <span class="highlight">left</span> and <span class="highlight">right</span>, of approximately equal size.</li>
+                    </ul>
+                </li>
+
+                <li><b>Conquer:</b> <br><br>
+                    <ul>
+                        <li><span class="highlight">Recursive Calls:</span> Repeatedly call <span class="highlight">mergesort</span> on each half, <span class="highlight">(left)</span> and <span class="highlight">(right)</span>, to create subarrays so they are sorted independently.</li>
+                    </ul>
+                </li>
+
+                <li><b>Combine:</b> <br><br>
+                    <ul>
+                        <li><span class="highlight">Merge:</span> Call the merge function to merge the two sorted halves (each initially of length 1) <span class="highlight">left</span> and <span class="highlight">right</span>, and combine them back into the original array <span class="highlight">data</span> in a sorted manner.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="dot-container">
+            <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            
+        </div>
+
+        
+
+
+        <div class="title"><span class="title-1">Time Complexity Breakdown</span></div>
+
+        <div class="complexity">
+            <p>Overall Time Complexity: O(n log n)</p>
+
+            <h3>Breakdown</h3>
+                <ol>
+                    <li><b>Divide:</b> <br><br>
+                        <ul> 
+                            <li>The <span class="highlight">mergeSort</span> function recursively divides the array into halves until each subarray has only one element.</li>
+                            <li>This splitting process has a time complexity of O(log n) due to the repeated halving.</li>
+                        </ul>
+                    </li>
+
+                    <li><b>Conquer:</b> <br><br>
+                        <ul>
+                            <li>The base case (array of size 1) requires no sorting, so its complexity is O(1).</li>
+                        </ul>
+                    </li>
+
+                    <li><b>Combine:</b> <br><br>
+                        <ul>
+                            <li>The merge function merges two sorted subarrays into a single sorted array.</li>
+                            <li>It iterates through both subarrays once, comparing elements and copying them to the final array.</li>
+                            <li>This merging process takes O(n) time, where n is the total number of merged elements.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <br>
+                <p><b>Overall Time Complexity:</b></p>
+
+                <ul>
+                    <li><p>The recursive calls to mergeSort create a log n-level tree.</p>
+                        <ul><li>The number of levels in this tree directly relates to how many times the array can be divided by 2 before reaching single-element subarrays. This is equivalent to the logarithm of the array’s size (log n). For example, an array of 8 elements would have 3 levels (log2 (8) = 3).</li></ul>
+                    </li>
+                    <div class="image">
+                        <img src="mergeSortProcess.png" alt="Sort Process">
+                    </div>
+                    <li>At each level, the merging step takes O(n) time.</li>
+                    <li>Therefore, the overall time complexity is O(n log n), resulting from multiplying the time complexity of each level (n) by the number of levels (log n).</li>
+                </ul>
+        </div>
+
+
+        <div class="dot-container">
+            <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            
+        </div>
+
+
+
+        <div class="title"><span class="title-1">important Characteristics of Merge Sort :</span></div>
+
+        <div class="characteristics">
+            <ul>
+                <li>Merge Sort is useful for sorting linked lists.</li>
+                <li>Merge Sort is a stable sort which means that the same element in an array maintain their original positions with respect to each other.</li>
+                <li>Overall time complexity of Merge sort is O(nLogn). It is more efficient as it is in worst case also the runtime is O(nlogn)</li>
+                <li>The space complexity of Merge sort is O(n). This means that this algorithm takes a lot of space and may slower down operations for the last data sets.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

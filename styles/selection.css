@@ -1,0 +1,468 @@
+/* ---------------------To swap elements with gap 0------------------- */
+
+.bar-left-to-right-100 {
+    animation-name: left-to-right-100;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: left-to-right 1.5s ease-in-out forwards; */
+}
+
+.bar-right-to-left-100 {
+    animation-name: right-to-left-100;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: right-to-left 1.5s ease-in-out forwards; */
+}
+
+@keyframes left-to-right-100 {
+    0% {
+        transform: translateY(0);
+    } 
+    33% {
+        transform: translateY(-200px);
+    }
+    66% {
+        transform: translateX(100px) translateY(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(100px) translateY(-200px);
+    }
+}
+
+@keyframes right-to-left-100 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(200px);
+    }
+    66% {
+        transform: translateX(-100px) translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px) translateX(-100px) translateY(200px);
+    }
+}
+
+/* ---------------------To swap elements with gap 0------------------- */
+
+/* ---------------------To swap elements with gap 1------------------- */
+
+.bar-left-to-right-200 {
+    animation-name: left-to-right-200;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: left-to-right 1.5s ease-in-out forwards; */
+}
+
+.bar-right-to-left-200 {
+    animation-name: right-to-left-200;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: right-to-left 1.5s ease-in-out forwards; */
+}
+
+@keyframes left-to-right-200 {
+    0% {
+        transform: translateY(0);
+    } 
+    33% {
+        transform: translateY(-200px);
+    }
+    66% {
+        transform: translateX(200px) translateY(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(200px) translateY(-200px);
+    }
+}
+
+@keyframes right-to-left-200 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(200px);
+    }
+    66% {
+        transform: translateX(-200px) translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px) translateX(-200px) translateY(200px);
+    }
+}
+
+/* ---------------------To swap elements with gap 1------------------- */
+
+
+/* ---------------------To swap elements with gap 2------------------- */
+
+.bar-left-to-right-300 {
+    animation-name: left-to-right-300;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: left-to-right 1.5s ease-in-out forwards; */
+}
+
+.bar-right-to-left-300 {
+    animation-name: right-to-left-300;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: right-to-left 1.5s ease-in-out forwards; */
+}
+
+@keyframes left-to-right-300 {
+    0% {
+        transform: translateY(0);
+    } 
+    33% {
+        transform: translateY(-200px);
+    }
+    66% {
+        transform: translateX(300px) translateY(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(300px) translateY(-200px);
+    }
+}
+
+@keyframes right-to-left-300 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(200px);
+    }
+    66% {
+        transform: translateX(-300px) translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px) translateX(-300px) translateY(200px);
+    }
+}
+
+/* ---------------------To swap elements with gap 2------------------- */
+
+/* ---------------------To swap elements with gap 3------------------- */
+
+.bar-left-to-right-400 {
+    animation-name: left-to-right-400;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: left-to-right 1.5s ease-in-out forwards; */
+}
+
+.bar-right-to-left-400 {
+    animation-name: right-to-left-400;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: right-to-left 1.5s ease-in-out forwards; */
+}
+
+@keyframes left-to-right-400 {
+    0% {
+        transform: translateY(0);
+    } 
+    33% {
+        transform: translateY(-200px);
+    }
+    66% {
+        transform: translateX(400px) translateY(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(400px) translateY(-200px);
+    }
+}
+
+@keyframes right-to-left-400 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(200px);
+    }
+    66% {
+        transform: translateX(-400px) translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px) translateX(-400px) translateY(200px);
+    }
+}
+
+/* ---------------------To swap elements with gap 3------------------- */
+
+/* ---------------------To swap elements with gap 4------------------- */
+
+.bar-left-to-right-500 {
+    animation-name: left-to-right-500;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: left-to-right 1.5s ease-in-out forwards; */
+}
+
+.bar-right-to-left-500 {
+    animation-name: right-to-left-500;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: right-to-left 1.5s ease-in-out forwards; */
+}
+
+@keyframes left-to-right-500 {
+    0% {
+        transform: translateY(0);
+    } 
+    33% {
+        transform: translateY(-200px);
+    }
+    66% {
+        transform: translateX(500px) translateY(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(500px) translateY(-200px);
+    }
+}
+
+@keyframes right-to-left-500 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(200px);
+    }
+    66% {
+        transform: translateX(-500px) translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px) translateX(-500px) translateY(200px);
+    }
+}
+
+/* ---------------------To swap elements with gap 4------------------- */
+
+/* ---------------------To swap elements with gap 5------------------- */
+
+.bar-left-to-right-600 {
+    animation-name: left-to-right-600;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: left-to-right 1.5s ease-in-out forwards; */
+}
+
+.bar-right-to-left-600 {
+    animation-name: right-to-left-600;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: right-to-left 1.5s ease-in-out forwards; */
+}
+
+@keyframes left-to-right-600 {
+    0% {
+        transform: translateY(0);
+    } 
+    33% {
+        transform: translateY(-200px);
+    }
+    66% {
+        transform: translateX(600px) translateY(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(600px) translateY(-200px);
+    }
+}
+
+@keyframes right-to-left-600 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(200px);
+    }
+    66% {
+        transform: translateX(-600px) translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px) translateX(-600px) translateY(200px);
+    }
+}
+
+/* ---------------------To swap elements with gap 5------------------- */
+
+/* ---------------------To swap elements with gap 6------------------- */
+
+.bar-left-to-right-700 {
+    animation-name: left-to-right-700;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: left-to-right 1.5s ease-in-out forwards; */
+}
+
+.bar-right-to-left-700 {
+    animation-name: right-to-left-700;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: right-to-left 1.5s ease-in-out forwards; */
+}
+
+@keyframes left-to-right-700 {
+    0% {
+        transform: translateY(0);
+    } 
+    33% {
+        transform: translateY(-200px);
+    }
+    66% {
+        transform: translateX(700px) translateY(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(700px) translateY(-200px);
+    }
+}
+
+@keyframes right-to-left-700 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(200px);
+    }
+    66% {
+        transform: translateX(-700px) translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px) translateX(-700px) translateY(200px);
+    }
+}
+
+/* ---------------------To swap elements with gap 6------------------- */
+
+/* ---------------------To swap elements with gap 7------------------- */
+
+.bar-left-to-right-800 {
+    animation-name: left-to-right-800;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: left-to-right 1.5s ease-in-out forwards; */
+}
+
+.bar-right-to-left-800 {
+    animation-name: right-to-left-800;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: right-to-left 1.5s ease-in-out forwards; */
+}
+
+@keyframes left-to-right-800 {
+    0% {
+        transform: translateY(0);
+    } 
+    33% {
+        transform: translateY(-200px);
+    }
+    66% {
+        transform: translateX(800px) translateY(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(800px) translateY(-200px);
+    }
+}
+
+@keyframes right-to-left-800 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(200px);
+    }
+    66% {
+        transform: translateX(-800px) translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px) translateX(-800px) translateY(200px);
+    }
+}
+
+/* ---------------------To swap elements with gap 7------------------- */
+
+/* ---------------------To swap elements with gap 8------------------- */
+
+.bar-left-to-right-900 {
+    animation-name: left-to-right-900;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: left-to-right 1.5s ease-in-out forwards; */
+}
+
+.bar-right-to-left-900 {
+    animation-name: right-to-left-900;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    /* animation: right-to-left 1.5s ease-in-out forwards; */
+}
+
+@keyframes left-to-right-900 {
+    0% {
+        transform: translateY(0);
+    } 
+    33% {
+        transform: translateY(-200px);
+    }
+    66% {
+        transform: translateX(900px) translateY(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(900px) translateY(-200px);
+    }
+}
+
+@keyframes right-to-left-900 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(200px);
+    }
+    66% {
+        transform: translateX(-900px) translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px) translateX(-900px) translateY(200px);
+    }
+}
+
+/* ---------------------To swap elements with gap 8------------------- */

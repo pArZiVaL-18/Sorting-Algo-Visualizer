@@ -1,0 +1,607 @@
+.pick-current-element {
+    animation-name: pick-current-element;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    transition: grid-row 1s ease-in-out;
+}
+
+@keyframes pick-current-element {
+    0% {
+        transform: translateY(0);
+    } 
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+.insert-element-100 {
+    animation-name: insert-element-100;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes insert-element-100 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(-100px) translateY(200px);
+    }
+}
+
+
+.temp{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: #DFF5FF; */
+    background-color: #ffd23f;;
+    padding: 1em;
+    margin: 2px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+
+.right-shift-100 {
+    animation-name: right-shift-100;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes right-shift-100 {
+    0% {
+        transform: translateY(0);
+    } 
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+.left-shift-100 {
+    animation-name: left-shift-100;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes left-shift-100 {
+    0% {
+        transform: translateY(0);
+    } 
+    100% {
+        transform: translateX(-100px);
+    }
+}
+
+/* --------------------up right 500px shift-------------------- */
+.up-200-right-5 {
+    animation-name: up-right-5;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right-5 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(500px) translateY(-200px);
+    }
+}
+
+/* --------------------up right 500px shift-------------------- */
+
+/* --------------------up right 400px shift-------------------- */
+.up-200-right-4 {
+    animation-name: up-right-4;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right-4 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(400px) translateY(-200px);
+    }
+}
+
+/* --------------------up right 400px shift-------------------- */
+
+/* --------------------up right 300px shift-------------------- */
+.up-200-right-3 {
+    animation-name: up-right-3;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right-3 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(300px) translateY(-200px);
+    }
+}
+
+/* --------------------up right 300px shift-------------------- */
+
+/* --------------------up right 200px shift-------------------- */
+.up-200-right-2 {
+    animation-name: up-right-2;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right-2 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(200px) translateY(-200px);
+    }
+}
+
+/* --------------------up right 200px shift-------------------- */
+
+/* --------------------up right 100px shift-------------------- */
+
+.up-200-right-1 {
+    animation-name: up-right-1;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right-1 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(100px) translateY(-200px);
+    }
+}
+
+/* --------------------up right 100px shift-------------------- */
+
+/* --------------------up right 0px shift-------------------- */
+
+.up-200-right-0 {
+    animation-name: up-right-0;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right-0 {
+    0% {
+        transform: translateY(0);
+    } 
+    100% {
+        transform: translateY(-200px);
+    }
+}
+
+/* --------------------up right 0px shift-------------------- */
+
+/* --------------------up right -100px shift-------------------- */
+
+.up-200-right--1 {
+    animation-name: up-right--1;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right--1 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(-100px) translateY(-200px);
+    }
+}
+
+/* --------------------up right -100px shift-------------------- */
+
+/* --------------------up right -200px shift-------------------- */
+
+.up-200-right--2 {
+    animation-name: up-right--2;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right--2 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(-200px) translateY(-200px);
+    }
+}
+
+/* --------------------up right -200px shift-------------------- */
+
+/* --------------------up right -300px shift-------------------- */
+.up-200-right--3 {
+    animation-name: up-right--3;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right--3 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(-300px) translateY(-200px);
+    }
+}
+
+/* --------------------up right -300px shift-------------------- */
+
+/* --------------------up right -400px shift-------------------- */
+.up-200-right--4 {
+    animation-name: up-right--4;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right--4 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(-400px) translateY(-200px);
+    }
+}
+
+/* --------------------up right -400px shift-------------------- */
+
+/* --------------------up right -500px shift-------------------- */
+.up-200-right--5 {
+    animation-name: up-right--5;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes up-right--5 {
+    0% {
+        transform: translateY(0);
+    } 
+    50% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateX(-500px) translateY(-200px);
+    }
+}
+
+/* --------------------up right -500px shift-------------------- */
+
+
+
+
+
+
+/* --------------------down right 500px shift-------------------- */
+
+.down-left-5 {
+    animation-name: down-left-5;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left-5 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateY(200px) translateX(-500px);
+    }
+}
+
+/* --------------------down right 500px shift-------------------- */
+
+/* --------------------down right 400px shift-------------------- */
+
+.down-left-4 {
+    animation-name: down-left-4;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left-4 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(-400px);
+    }
+    100% {
+        transform: translateY(200px) translateX(-400px);
+    }
+}
+
+/* --------------------down right 400px shift-------------------- */
+
+/* --------------------down right 300px shift-------------------- */
+
+.down-left-3 {
+    animation-name: down-left-3;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left-3 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(-300px);
+    }
+    100% {
+        transform: translateY(200px) translateX(-300px);
+    }
+}
+
+/* --------------------down right 300px shift-------------------- */
+
+/* --------------------down right 200px shift-------------------- */
+
+.down-left-2 {
+    animation-name: down-left-2;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left-2 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(-200px);
+    }
+}
+
+/* --------------------down right 200px shift-------------------- */
+
+/* --------------------down right 100px shift-------------------- */
+
+.down-left-1 {
+    animation-name: down-left-1;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left-1 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateY(200px) translateX(-100px);
+    }
+}
+
+/* --------------------down right 100px shift-------------------- */
+
+/* --------------------down left 0px shift-------------------- */
+
+.down-left-0 {
+    animation-name: down-left-0;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left-0 {
+    0% {
+        transform: translateX(0);
+    } 
+    100% {
+        transform: translateY(200px);
+    }
+}
+
+/* --------------------down left 0px shift-------------------- */
+
+/* --------------------down right -100px shift-------------------- */
+
+.down-left--1 {
+    animation-name: down-left--1;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left--1 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateY(200px) translateX(100px);
+    }
+}
+
+/* --------------------down right -100px shift-------------------- */
+
+/* --------------------down right -200px shift-------------------- */
+
+.down-left--2 {
+    animation-name: down-left--2;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left--2 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateY(200px) translateX(200px);
+    }
+}
+
+/* --------------------down right -200px shift-------------------- */
+
+/* --------------------down right -300px shift-------------------- */
+
+.down-left--3 {
+    animation-name: down-left--3;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left--3 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(300px);
+    }
+    100% {
+        transform: translateY(200px) translateX(300px);
+    }
+}
+
+/* --------------------down right -300px shift-------------------- */
+
+/* --------------------down right -400px shift-------------------- */
+
+.down-left--4 {
+    animation-name: down-left--4;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left--4 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(400px);
+    }
+    100% {
+        transform: translateY(200px) translateX(400px);
+    }
+}
+
+/* --------------------down right -400px shift-------------------- */
+
+/* --------------------down right -500px shift-------------------- */
+
+.down-left--5 {
+    animation-name: down-left--5;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}
+
+@keyframes down-left--5 {
+    0% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateY(200px) translateX(500px);
+    }
+}
+
+/* --------------------down right -500px shift-------------------- */

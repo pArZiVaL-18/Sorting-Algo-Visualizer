@@ -1,0 +1,183 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/bubble.css" />
+    <link rel="stylesheet" href="styles/insertion.css" />
+    <link rel="stylesheet" href="styles/selection.css" />
+    <title>Sorting Visualizer</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="btn-1 border flexbox">
+        <div id="switch-btn">Try Box</div>
+      </div>
+
+      <div class="btn-container flexbox">
+        <div class="btn-1 algo--1 border flexbox btn-1-active" data-value="1">
+          <div class="flexbox">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="bubble"><path fill="none" d="M0 0h24v24H0V0z"></path><circle cx="7.2" cy="14.4" r="3.2"></circle><circle cx="14.8" cy="18" r="2"></circle><circle cx="15.2" cy="8.8" r="4.8"></circle></svg> -->
+            BUB
+          </div>
+        </div>
+        <div class="btn-1 algo--2 border flexbox" data-value="2">
+          <div class="flexbox">SEL</div>
+        </div>
+        <div class="btn-1 algo--3 border flexbox" data-value="3">
+          <div class="flexbox">INS</div>
+        </div>
+        <div class="btn-1 algo--4 border flexbox" data-value="4">
+          <div class="flexbox">MER</div>
+        </div>
+      </div>
+
+      <div class="btn-1 border flexbox">
+        <div id="input-array">Input</div>
+      </div>
+    </header>
+
+    <div class="section-1 flexbox">
+      <div class="main-container">
+        <div class="settings">
+          <div class="div-2">
+            <div class="btns">
+              <button class="btn-2" id="array">New</button>
+              <button class="btn-2" id="start">Start</button>
+              <button class="btn-2" id="again">Again</button>
+            </div>
+          </div>
+
+          <div class="div-1">
+            <div class="title">
+              <h3>Color Index</h3>
+            </div>
+            <div class="line"></div>
+
+            <div class="color flex">
+              <div class="dot dot-1 green"></div>
+              <div class="status status-1">Swapping</div>
+            </div>
+
+            <div class="color flex">
+              <div class="dot dot-2 yellow"></div>
+              <div class="status status-2">Comparing</div>
+            </div>
+
+            <div class="color flex">
+              <div class="dot dot-3 red"></div>
+              <div class="status status-3">Sorted</div>
+            </div>
+          </div>
+
+          <div class="div-3">
+            <div class="title">
+              <h3>Time Complexity</h3>
+            </div>
+            <div class="line"></div>
+            <div class="table">
+              <table>
+                <tr>
+                  <td>Best</td>
+                  <td>Avarage</td>
+                  <td>Worst</td>
+                </tr>
+                <tr>
+                  <td class="best">O(n)</td>
+                  <td class="avg">O(n<sup>2</sup>)</td>
+                  <td class="worst">O(n<sup>2</sup>)</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-2">
+          <div class="bar-container" id="bar-container"></div>
+          <div class="hide" id="box-container">
+            <div class="container"></div>
+          </div>
+
+          <div class="process-container flex">
+            <div class="array-display">
+              <h1>Initial Array</h1>
+              <div class="curr-array flexbox"></div>
+            </div>
+            <div class="process">
+              <div class="para"></div>
+              <br />
+              <div class="para-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-3">
+      <h1>Small Description About Each Algo's</h1>
+      <div class="card-container">
+        <a href="pages/bubble.html" target="_blank">
+          <div class="card" data-value="1">
+            <p class="card-title">Bubble Sort</p>
+            <p class="small-desc">
+              Bubble sort is a sorting algorithm that uses comparison methods to
+              sort an array. It has an average time complexity of O(n^2). Here's
+              what you need to know.
+            </p>
+            <div class="go-corner">
+              <div class="go-arrow">→</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="pages/selection.html" target="_blank">
+          <div class="card" data-value="2">
+            <p class="card-title">Selection Sort</p>
+            <p class="small-desc">
+              Selection sorting is done by selecting an element position from
+              the start of the collection and then finding the lowest(or
+              highest) from the rest of the group of elements.
+            </p>
+            <div class="go-corner">
+              <div class="go-arrow">→</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="pages/insertion.html" target="_blank">
+          <div class="card" data-value="3">
+            <p class="card-title">Insertion Sort</p>
+            <p class="small-desc">
+              Insertion sort is a sorting algorithm in which the unsorted
+              elements are transferred one at a time to the right position. Here
+              what you need to know.
+            </p>
+            <div class="go-corner">
+              <div class="go-arrow">→</div>
+            </div>
+          </div>
+        </a>
+
+        <a href="pages/merge.html" target="_blank">
+          <div class="card" data-value="4">
+            <p class="card-title">Merge Sort</p>
+            <p class="small-desc">
+              Merge sort is a divide-and-conquer sorting algorithm that breaks
+              down an array into smaller arrays, sorts them, and then combines
+              the subarrays
+            </p>
+            <div class="go-corner">
+              <div class="go-arrow">→</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/bubbleSort.js"></script>
+    <script src="scripts/selectionSort.js"></script>
+    <script src="scripts/insertionSort.js"></script>
+    <script src="scripts/mergeSort.js"></script>
+  </body>
+</html>

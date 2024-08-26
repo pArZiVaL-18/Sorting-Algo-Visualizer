@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagestyle.css">
+    <title>Selection Sort</title>
+</head>
+<body> 
+    <div class="container">
+        <div class="heading">
+            Selection Sort Algorithm
+        </div>
+        <div class="line"></div>
+
+            <div class="title"><span class="title-1">Definition : </span></div>
+            <div class="definition">
+                <i><u>Selection Sort</u></i> is a comparison-based sorting algorithm that divides the input list into two portions: the sorted portion and the unsorted portion. It repeatedly selects the smallest (or largest) element from the unsorted portion and swaps it with the first element of the unsorted portion. This process continues until the entire list becomes sorted.
+            </div>
+
+            <div class="title"><span class="title-1">Step-by-Step Explanation:</span></div>
+            
+            <div class="working">
+                <ol>
+                    <li>Start with the entire unsorted list.</li>
+                    <li>Find the minimum element in the unsorted portion.</li>
+                    <li>Swap the minimum element with the first element of the unsorted portion.</li>
+                    <li>Expand the sorted portion by moving the boundary one element to the right.</li>
+                    <li>Repeat the above steps until the entire list becomes sorted.</li>
+                </ol>
+            </div>
+
+            <div class="dot-container">
+                <div class="dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                
+            </div>
+
+            <div class="image">
+                <img src="selectionSortProcess.png" alt="Sort Process">
+            </div>
+
+            <div class="title"><span class="title-1">Time and Space Complexity:</span></div>
+
+            <div class="explaination">
+                <ul>
+                    <li>Selection sort has a time complexity of O(n²), where ’n’ is the number of elements in the list. </li>
+                    <li>This quadratic time complexity makes it less efficient than other sorting algorithms, such as quicksort or mergesort, for large datasets. </li>
+                    <li>However, selection sort has a space complexity of O(1) since it operates directly on the input array without requiring additional memory.</li>
+                </ul>
+            </div>
+
+            <div class="title"><span class="title-1">Strengths and Limitations of Selection Sort:</span></div>
+
+            <div class="explaination">
+                <ul>
+                    <li>One of the significant strengths of selection sort is its simplicity.</li>
+                    <li> It is easy to understand and implement, making it suitable for educational purposes or situations where a simple sorting algorithm is required. </li>
+                    <li>Selection sort also performs well on small datasets or partially sorted lists, as it minimizes the number of swaps required. </li>
+                    <li>However, selection sort’s main limitation is its efficiency for large datasets due to its quadratic time complexity.</li>
+                </ul>
+            </div>
+
+    </div>
+</body>
+</html>
